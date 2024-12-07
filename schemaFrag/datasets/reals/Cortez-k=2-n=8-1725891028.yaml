@@ -1,0 +1,213 @@
+table-config:
+  tables:
+  - real_table_name: Cortez
+  - relation_table_name: Cortez_relation
+  - split_tables:
+    - split_table_name: server0
+      columns:
+      - name: address
+        type: VARCHAR
+        length: 100
+      - name: higher
+        type: VARCHAR
+        length: 100
+      - name: G3
+        type: VARCHAR
+        length: 100
+      - name: G2
+        type: VARCHAR
+        length: 100
+      - name: internet
+        type: VARCHAR
+        length: 100
+      - name: goout
+        type: VARCHAR
+        length: 100
+    - split_table_name: server1
+      columns:
+      - name: Dalc
+        type: VARCHAR
+        length: 100
+      - name: freetime
+        type: VARCHAR
+        length: 100
+      - name: school
+        type: VARCHAR
+        length: 100
+      - name: Fjob
+        type: VARCHAR
+        length: 100
+      - name: famrel
+        type: VARCHAR
+        length: 100
+      - name: internet
+        type: VARCHAR
+        length: 100
+      - name: guardian
+        type: VARCHAR
+        length: 100
+      - name: studytime
+        type: VARCHAR
+        length: 100
+      - name: Fedu
+        type: VARCHAR
+        length: 100
+      - name: schoolsup
+        type: VARCHAR
+        length: 100
+      - name: reason
+        type: VARCHAR
+        length: 100
+      - name: absences
+        type: VARCHAR
+        length: 100
+    - split_table_name: server2
+      columns:
+      - name: sex
+        type: VARCHAR
+        length: 100
+      - name: school
+        type: VARCHAR
+        length: 100
+      - name: Fjob
+        type: VARCHAR
+        length: 100
+      - name: guardian
+        type: VARCHAR
+        length: 100
+      - name: Fedu
+        type: VARCHAR
+        length: 100
+      - name: famsize
+        type: VARCHAR
+        length: 100
+      - name: Pstatus
+        type: VARCHAR
+        length: 100
+      - name: schoolsup
+        type: VARCHAR
+        length: 100
+      - name: reason
+        type: VARCHAR
+        length: 100
+      - name: studytime
+        type: VARCHAR
+        length: 100
+      - name: Medu
+        type: VARCHAR
+        length: 100
+    - split_table_name: server3
+      columns:
+      - name: Walc
+        type: VARCHAR
+        length: 100
+      - name: Dalc
+        type: VARCHAR
+        length: 100
+      - name: health
+        type: VARCHAR
+        length: 100
+      - name: absences
+        type: VARCHAR
+        length: 100
+      - name: goout
+        type: VARCHAR
+        length: 100
+      - name: G1
+        type: VARCHAR
+        length: 100
+    - split_table_name: server4
+      columns:
+      - name: romantic
+        type: VARCHAR
+        length: 100
+      - name: Dalc
+        type: VARCHAR
+        length: 100
+      - name: address
+        type: VARCHAR
+        length: 100
+      - name: higher
+        type: VARCHAR
+        length: 100
+      - name: G2
+        type: VARCHAR
+        length: 100
+      - name: goout
+        type: VARCHAR
+        length: 100
+    - split_table_name: server5
+      columns:
+      - name: address
+        type: VARCHAR
+        length: 100
+      - name: G3
+        type: VARCHAR
+        length: 100
+      - name: traveltime
+        type: VARCHAR
+        length: 100
+      - name: Fjob
+        type: VARCHAR
+        length: 100
+      - name: guardian
+        type: VARCHAR
+        length: 100
+      - name: age
+        type: VARCHAR
+        length: 100
+      - name: Fedu
+        type: VARCHAR
+        length: 100
+      - name: Mjob
+        type: VARCHAR
+        length: 100
+      - name: reason
+        type: VARCHAR
+        length: 100
+      - name: Medu
+        type: VARCHAR
+        length: 100
+    - split_table_name: server6
+      columns:
+      - name: address
+        type: VARCHAR
+        length: 100
+      - name: traveltime
+        type: VARCHAR
+        length: 100
+      - name: famsup
+        type: VARCHAR
+        length: 100
+      - name: age
+        type: VARCHAR
+        length: 100
+      - name: failures
+        type: VARCHAR
+        length: 100
+    - split_table_name: server7
+      columns:
+      - name: paid
+        type: VARCHAR
+        length: 100
+      - name: activities
+        type: VARCHAR
+        length: 100
+      - name: Dalc
+        type: VARCHAR
+        length: 100
+      - name: health
+        type: VARCHAR
+        length: 100
+      - name: absences
+        type: VARCHAR
+        length: 100
+      - name: nursery
+        type: VARCHAR
+        length: 100
+      - name: Walc
+        type: VARCHAR
+        length: 100
+      - name: G1
+        type: VARCHAR
+        length: 100

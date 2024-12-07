@@ -1,0 +1,135 @@
+{
+    "real_table_name": "meeting500w",
+    "split_table_prefix": "server",
+    "have_id": false,
+    "split_tables": [
+        {
+            "split_table_name": "meeting500w_relation_n4",
+            "relate_subid": null,
+            "columns": [
+                {
+                    "name": "sid",
+                    "type": "bigint",
+                    "length": 20
+                },
+                {
+                    "name": "sid0",
+                    "type": "bigint",
+                    "length": 20
+                },
+                {
+                    "name": "sid1",
+                    "type": "bigint",
+                    "length": 20
+                },
+                {
+                    "name": "sid2",
+                    "type": "bigint",
+                    "length": 20
+                },
+                {
+                    "name": "sid3",
+                    "type": "bigint",
+                    "length": 20
+                }
+            ]
+        },
+        {
+            "split_table_name": "meeting500w_server0_n4",
+            "relate_subid": "sid0",
+            "columns": [
+                {
+                    "name": "ip_address",
+                    "type": "VARCHAR",
+                    "length": 255
+                },
+                {
+                    "name": "password",
+                    "type": "VARCHAR",
+                    "length": 255
+                },
+                {
+                    "name": "meeting_time",
+                    "type": "DATETIME"
+                },
+                {
+                    "name": "device_identifier",
+                    "type": "VARCHAR",
+                    "length": 255
+                }
+            ]
+        },
+        {
+            "split_table_name": "meeting500w_server1_n4",
+            "relate_subid": "sid1",
+            "columns": [
+                {
+                    "name": "phone_number",
+                    "type": "VARCHAR",
+                    "length": 255
+                },
+                {
+                    "name": "name",
+                    "type": "VARCHAR",
+                    "length": 255
+                },
+                {
+                    "name": "sms_verification_code",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "user_id",
+                    "type": "VARCHAR",
+                    "length": 255
+                },
+                {
+                    "name": "email",
+                    "type": "VARCHAR",
+                    "length": 255
+                },
+                {
+                    "name": "wechat_id",
+                    "type": "VARCHAR",
+                    "length": 255
+                },
+                {
+                    "name": "username",
+                    "type": "VARCHAR",
+                    "length": 255
+                }
+            ]
+        },
+        {
+            "split_table_name": "meeting500w_server2_n4",
+            "relate_subid": "sid2",
+            "columns": [
+                {
+                    "name": "meeting_topic",
+                    "type": "VARCHAR",
+                    "length": 255
+                },
+                {
+                    "name": "meeting_id",
+                    "type": "VARCHAR",
+                    "length": 255
+                }
+            ]
+        },
+        {
+            "split_table_name": "meeting500w_server3_n4",
+            "relate_subid": "sid3",
+            "columns": [
+                {
+                    "name": "meeting_host",
+                    "type": "VARCHAR",
+                    "length": 255
+                },
+                {
+                    "name": "attendee_nickname",
+                    "type": "VARCHAR",
+                    "length": 255
+                }
+            ]
+        }
+    ]
+}
